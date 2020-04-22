@@ -48,16 +48,12 @@ function convertSpeaker(meetup) {
   return meetup.speakers.map(speaker => ({
     id: speaker.id,
     name: speaker.name,
-    photoUrl: `https://avatar.io/twitter/${speaker.link}`,
+    photoUrl: `https://avatars.io/twitter/${speaker.link}`,
     socials: [{
       name: 'twitter',
       link: `https://twitter.com/${speaker.link}`,
     }],
   }))
-}
-
-function getPhotoUrlFromLink(twitterLink) {
-  return twitterLink.replace('twitter.com', 'avatars.io/twitter')
 }
 
 function convertTalkStartingAt(startDateTime) {
