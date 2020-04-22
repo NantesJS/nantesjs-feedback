@@ -1,3 +1,5 @@
+![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/nantesjs/nantesjs-feedback/Node.js CI/master)
+
 # nantesjs-feedback
 
 Outil de création de modèle openfeedback à partir de meetup
