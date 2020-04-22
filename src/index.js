@@ -3,7 +3,7 @@ require('dotenv').config()
 const fs = require('fs')
 const yaml = require('js-yaml')
 const { Octokit } = require('@octokit/rest')
-const convertToOpenFeedbackModel = require('./openfeedback.js')
+const { convertToOpenFeedbackModel } = require('./openfeedback.js')
 
 getMeetupFile()
   .then(meetupFile => fs.promises.readFile(meetupFile, 'utf-8'))
