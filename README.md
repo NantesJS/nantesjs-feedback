@@ -1,3 +1,5 @@
+![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/nantesjs/nantesjs-feedback/Node.js CI/master)
+
 # nantesjs-feedback
 
 Outil de création de modèle openfeedback à partir de meetup
@@ -22,11 +24,11 @@ La variable d'environnement `GITHUB_TOKEN` doit-être renseignée.
 ## Utilisation :sparkles:
 
 ```
-node index.js chemin/vers/votre/fichier/meetup.md
+node src/index.js chemin/vers/votre/fichier/meetup.md
 ```
 
 ### Exemple
 
 ```
-node index.js meetup-sample.md
+node src/index.js meetup-sample.md
 ```
